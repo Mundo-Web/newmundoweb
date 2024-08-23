@@ -317,7 +317,7 @@
                                 <div class="group  mt-6">
                                     <button type="submit" href="{{ route('inicio') }}"
                                         class="font-MontserratSemibold font-light text-base bg-inputmw  text-white px-3  py-2 rounded-full w-auto inline-block ">
-                                        Solicitar servicio<img src="{{ asset('img/flechaderecha.svg') }}"
+                                        Enviar solicitud<img src="{{ asset('img/flechaderecha.svg') }}"
                                             alt="Flecha a la derecha"
                                             class="h-10 w-10 ml-2 inline-block group-hover:rotate-45 transition-all  duration-500"></button>
                                 </div>
@@ -446,7 +446,7 @@
                             <div class="group  mt-6">
                                 <button type="submit" href="{{ route('inicio') }}"
                                     class="font-MontserratSemibold font-light text-base bg-inputmw  text-white px-3  py-2 rounded-full w-auto inline-block ">
-                                    Solicitar servicio<img src="{{ asset('img/flechaderecha.svg') }}"
+                                    Enviar solicitud<img src="{{ asset('img/flechaderecha.svg') }}"
                                         alt="Flecha a la derecha"
                                         class="h-10 w-10 ml-2 inline-block group-hover:rotate-45 transition-all  duration-500"></button>
                             </div>
