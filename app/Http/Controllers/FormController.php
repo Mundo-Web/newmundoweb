@@ -24,18 +24,18 @@ class FormController extends Controller
             $body['origin'] = $body['origin'] ?? '[Mundo Web] - Landing WebSite';
             $body['source'] = $body['source'] ?? 'Integracion API';
             $body['triggered_by'] = $body['triggered_by'] ?? 'Pauta';
-            $res = new Fetch('https://crm.atalaya.pe/free/leads', [
-                'method' => 'POST',
-                'headers' => [
-                    'Authorization' => 'Bearer dbb494f4-54d2-11ef-bfda-26a0a2e74226',
-                    'Content-Type' => 'application/json'
-                ],
-                'body' => $body
-            ]);
-            $data = $res->json();
-            if (!$res->ok) {
-                throw new Exception($data['message'] ?? 'Ocurrio un error inespesperado al guardar los datos');
-            }
+            // $res = new Fetch('https://crm.atalaya.pe/free/leads', [
+            //     'method' => 'POST',
+            //     'headers' => [
+            //         'Authorization' => 'Bearer dbb494f4-54d2-11ef-bfda-26a0a2e74226',
+            //         'Content-Type' => 'application/json'
+            //     ],
+            //     'body' => $body
+            // ]);
+            // $data = $res->json();
+            // if (!$res->ok) {
+            //     throw new Exception($data['message'] ?? 'Ocurrio un error inespesperado al guardar los datos');
+            // }
         });
         return response($response->toArray(), $response->status);
     }
