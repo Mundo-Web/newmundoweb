@@ -95,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </header>
   
   <div id="menu" class="fixed z-90 w-0 h-0 flex justify-center items-center bg-azulanding opacity-0 duration-700">
-    <x-demo /> 
+    
     <div class="flex flex-col text-white text-left text-4xl font-bold space-y-4 font-RightgroteskMedium tracking-wider">
         <a class="hover:underline duration-300" href="{{ route('inicio') }}">Inicio</a>
         <a class="hover:underline duration-300" href="{{ route('servicios') }}">Servicios</a>
@@ -104,7 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a class="hover:underline duration-300" href="{{ route('contacto') }}">Contacto</a> --}}
     </div>
   </div>
-
+  <x-demo /> 
   <!-- Contenido principal -->
   <div class=" grid  grid-cols-12 xs:min-w-96  xs:h-full  ">
 
