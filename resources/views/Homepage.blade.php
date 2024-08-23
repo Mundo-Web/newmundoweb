@@ -689,8 +689,6 @@
 
         let formulario = $('#dataWhatsapp').serialize()
         
-
-
         fetch("{{ route('save.crm') }}", {
                 method: 'POST',
                 headers: {
