@@ -807,7 +807,8 @@
                 }).then((result) => {
                     
                     if (result.isConfirmed) {
-                        window.location.href = "https://wa.link/txz27u";
+                        window.open("https://wa.link/txz27u", "_blank");
+                        window.location.href = "https://mundoweb.pe/#whatsappListo";
                     }
                 });
                
