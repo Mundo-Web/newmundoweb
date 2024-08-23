@@ -264,7 +264,7 @@
                                     <div class="w-full col-span-12 lg:col-span-12  ">
                                         <input
                                             class="font-MontserratRegular appearance-none block w-full  bg-inputmw  text-white  border-none rounded-xl py-4 px-3  leading-tight placeholder-slate-300 "
-                                            name="contact_name" type="text" placeholder="Nombre completo"
+                                            name="contact_name_movil" type="text" placeholder="Nombre completo"
                                             id="contact_name">
                                         @error('nombre')
                                             <span class="text-red-500 text-base ">{{ $message }}</span>
@@ -277,7 +277,7 @@
                                     <div class="w-full col-span-12 lg:col-span-6">
                                         <input
                                             class="font-MontserratRegular appearance-none block w-full bg-inputmw  text-white  border-none rounded-xl py-4 px-3 leading-tight placeholder-slate-300 "
-                                            name="contact_email" type="email" placeholder="Correo electrónico"
+                                            name="contact_email_movil" type="email" placeholder="Correo electrónico"
                                             id="contact_email">
                                         @error('email')
                                             <span class="text-red-500 text-base ">{{ $message }}</span>
@@ -287,7 +287,7 @@
                                     <div class="w-full col-span-12 lg:col-span-6 ">
                                         <input
                                             class="font-MontserratRegular appearance-none block w-full bg-inputmw  text-white  border-none rounded-xl py-4 px-3 leading-tight placeholder-slate-300 "
-                                            name="contact_phone" type="text" placeholder="Número de teléfono"
+                                            name="contact_phone_movil" type="text" placeholder="Número de teléfono"
                                             id="contact_phone">
                                         @error('telefono')
                                             <span class="text-red-500 text-base ">{{ $message }}</span>
@@ -302,18 +302,18 @@
 
                                         <textarea
                                             class=" font-MontserratRegular appearance-none block w-full bg-inputmw  text-white  border-none rounded-xl py-4 px-3  leading-tight placeholder-slate-300 "
-                                            name="message" placeholder="Mensaje" rows="3" id="message"></textarea>
+                                            name="message_movil" placeholder="Mensaje" rows="3" id="message"></textarea>
                                     </div>
                                 </div>
-                                <input type="hidden" name="source" id="source" value="Pauta">
-                                <input type="hidden" name="origin" id="llegade" value="Pauta">
-                                <input type="hidden" name="triggered_by" id="triggered"
+                                <input type="hidden" name="source_movil" id="source" value="Pauta">
+                                <input type="hidden" name="origin_movil" id="llegade" value="Pauta">
+                                <input type="hidden" name="triggered_by_movil" id="triggered"
                                     value="Web Oficial/Formulario">
-                                <input type="hidden" name="client_width" id="anchodispositivo">
-                                <input type="hidden" name="client_height" id="largodispositivo">
-                                <input type="hidden" name="client_latitude" id="latitud">
-                                <input type="hidden" name="client_longitude" id="longitud">
-                                <input type="hidden" name="client_system" id="sistema">
+                                <input type="hidden" name="client_width_movil" id="anchodispositivo">
+                                <input type="hidden" name="client_height_movil" id="largodispositivo">
+                                <input type="hidden" name="client_latitude_movil" id="latitud">
+                                <input type="hidden" name="client_longitude_movil" id="longitud">
+                                <input type="hidden" name="client_system_movil" id="sistema">
                                 <div class="group  mt-6">
                                     <button type="submit" href="{{ route('inicio') }}"
                                         class="font-MontserratSemibold font-light text-base bg-inputmw  text-white px-3  py-2 rounded-full w-auto inline-block ">
@@ -716,21 +716,21 @@
                 },
                 body: JSON.stringify({
                     _token: $('[name="_token"]').val(),
-                    contact_name: $('[name="contact_name"]').val(),
-                    contact_email: $('[name="contact_email"]').val(),
-                    contact_phone: `51${$('[name="contact_phone"]').val()}`,
+                    contact_name: $('[name="contact_name_movil"]').val(),
+                    contact_email: $('[name="contact_email_movil"]').val(),
+                    contact_phone: `51${$('[name="contact_phone_movil"]').val()}`,
                     // tradename: $('[name="name"]').val(),
                     // sector: $('[name="sector"]').val(),
                     // web_url: $('[name="web_url"]').val(),
-                    source: $('[name="source"]').val(),
-                    origin: $('[name="source"]').val(),
-                    client_width: $('[name="client_width"]').val(),
-                    client_height: $('[name="client_height"]').val(),
-                    client_latitude: $('[name="client_latitude"]').val(),
-                    client_longitude: $('[name="client_longitude"]').val(),
-                    client_system: $('[name="client_system"]').val(),
-                    message: $('[name="message"]').val(),
-                    triggered_by: $('[name="triggered_by"]').val(),
+                    source: $('[name="source_movil"]').val(),
+                    origin: $('[name="source_movil"]').val(),
+                    client_width: $('[name="client_width_movil"]').val(),
+                    client_height: $('[name="client_height_movil"]').val(),
+                    client_latitude: $('[name="client_latitude_movil"]').val(),
+                    client_longitude: $('[name="client_longitude_movil"]').val(),
+                    client_system: $('[name="client_system_movil"]').val(),
+                    message: $('[name="message_movil"]').val(),
+                    triggered_by: $('[name="triggered_by_movil"]').val(),
 
                 })
             })
