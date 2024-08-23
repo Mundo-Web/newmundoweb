@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+    .content-auto {
+    content-visibility: auto;
+    background-color: red;
+    height: 50px;
+    }
+
+    .imagenMundoWeb{
+        background-image: url('../../public/img/imgmundoweb.jpg');  
+    }
+
+    .fondoservicios{
+        background-image: url('../../public/img/fondo2.png');  
+    }
+
+    .textura{
+        background-image: url('../../public/img/texturaonepage.svg');  
+        object-fit: cover;
+        background-position: left;
+        background-size: 100%;
+        background-repeat:no-repeat;
+        
+    }
+
+    .fondolanding{
+        background-image: url('../../public/img/fondolanding.png');  
+        object-fit: cover;
+        background-position: top ;
+        background-size: 100%;
+        background-repeat:no-repeat;
+    }
+
+    
+
+      .menu-icon {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        margin-left:2px;
+    }
+
+    .bar {
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin: 4px 0px;
+      transition: 0.4s;
+      }
+
+    .menu-icon.change .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 10px);
+      margin-left:-2px;
+     }
+    
+    .menu-icon.change .bar:nth-child(2) {
+        opacity: 0;
+      }
+    
+    .menu-icon.change .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -10px);
+        margin-left:-2px;
+     }
+}

@@ -18,7 +18,11 @@
     <script src="{{asset('js/jquery.min.js')}}"></script>
     <script src="{{asset('js/slick.min.js')}}"></script>
    
-  
+    <script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
    
@@ -83,15 +87,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    
   </header>
   
-  
+  <x-demo /> 
+
   <div id="menu" class="fixed z-40 w-0 h-0 flex justify-center items-center bg-azuloscuro opacity-0 duration-700">
      
     <div class="flex flex-col text-white text-left text-4xl font-bold space-y-4">
         <a class="hover:underline duration-300" href="{{ route('inicio') }}">Inicio</a>
         <a class="hover:underline duration-300" href="{{ route('servicios') }}">Servicios</a>
         <a class="hover:underline duration-300" href="{{ route('proyectos') }}">Proyectos</a>
-        <a class="hover:underline duration-300" href="{{ route('posts.index') }}">Blog</a>
-        <a class="hover:underline duration-300" href="{{ route('contacto') }}">Contacto</a>
+        {{-- <a class="hover:underline duration-300" href="{{ route('posts.index') }}">Blog</a>
+        <a class="hover:underline duration-300" href="{{ route('contacto') }}">Contacto</a> --}}
     </div>
   </div>
   
@@ -494,9 +499,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div> --}}
 
-<a href="https://api.whatsapp.com/send?phone=51908857558&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20." class="fixed bottom-28 left-2 md:left-5 z-50 animate-wiggle animate-infinite animate-delay-[5ms] animate-ease-in  float-right block bg-none" target="_blank">
+{{-- <a href="https://api.whatsapp.com/send?phone=51908857558&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20." class="fixed bottom-28 left-2 md:left-5 z-50 animate-wiggle animate-infinite animate-delay-[5ms] animate-ease-in  float-right block bg-none" target="_blank">
   <img src="{{ asset('img/wspf.svg') }}" class="w-16" />
-  </a>
+  </a> --}}
 
   <!-- Pie de página -->
   <footer >

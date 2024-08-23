@@ -139,7 +139,7 @@
     </a> --}}
 
     </header>
-
+ 
     {{-- whatssapp --}}
     <div class="flex justify-end w-11/12 mx-auto z-[100] relative">
         <div class="fixed bottom-6 sm:bottom-[2rem] lg:bottom-[4rem] z-20 cursor-pointer right-[20px] ">

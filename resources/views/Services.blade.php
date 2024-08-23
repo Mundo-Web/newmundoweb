@@ -13,6 +13,14 @@
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js'])  --}}
     <link rel="stylesheet" href="{{asset('build/app.css')}}">
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
     <!-- Google Tag Manager -->
      <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -40,6 +48,9 @@
 
       gtag('config', 'G-N7CQ3LKCR4');
     </script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 
 
@@ -102,11 +113,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a class="hover:underline duration-300" href="{{ route('inicio') }}">Inicio</a>
         <a class="hover:underline duration-300" href="{{ route('servicios') }}">Servicios</a>
         <a class="hover:underline duration-300" href="{{ route('proyectos') }}">Proyectos</a>
-        <a class="hover:underline duration-300" href="{{ route('posts.index') }}">Blog</a>
-        <a class="hover:underline duration-300" href="{{ route('contacto') }}">Contacto</a>
+        {{-- <a class="hover:underline duration-300" href="{{ route('posts.index') }}">Blog</a>
+        <a class="hover:underline duration-300" href="{{ route('contacto') }}">Contacto</a> --}}
     </div>
   </div>
 
+   {{-- whatssapp --}}
+    <div class="flex justify-end w-11/12 mx-auto z-[100] relative">
+        <div class="fixed bottom-6 sm:bottom-[2rem] lg:bottom-[4rem] z-20 cursor-pointer right-[20px] ">
+            <a target="_blank" id="whatsapp-toggle" {{-- href="https://api.whatsapp.com/send?phone={{ $general[0]->whatsapp }}&text={{ $general[0]->mensaje_whatsapp }}" --}}>
+                <img src="{{ asset('images/img/imgMundoWeb/WhatsApp.svg') }}" alt="whatsapp"
+                    class="w-16 h-16 md:w-24 md:h-24">
+            </a>
+        </div>
+    </div>
+
+    <x-demo /> 
 
   <!-- Contenido principal -->
   <div class=" grid  grid-cols-12  w-full bg-azuloscuro   lg:h-screen">
@@ -186,11 +208,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      
 
   </div>
-
-  <a href="https://api.whatsapp.com/send?phone=51908857558&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20." class="fixed bottom-28 left-2 md:left-5 z-50 animate-wiggle animate-infinite animate-delay-[5ms] animate-ease-in  float-right block bg-none" target="_blank">
-    <img src="{{ asset('img/wspf.svg') }}" class="w-16" />
-    </a>
-
 
   <footer >
       
@@ -293,4 +310,148 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }); 
   </script>
 
+
+<script>
+    document.getElementById('whatsapp-toggle').addEventListener('click', function() {
+        var chatBox = document.getElementById('whatsapp-chat');
+        if (chatBox.classList.contains('hidden')) {
+            chatBox.classList.remove('hidden');
+            chatBox.classList.add('animate-fade-up');
+        } else {
+            chatBox.classList.add('hidden');
+            chatBox.classList.remove('animate-fade-up');
+        }
+    });
+</script>
+
+
+<script>
+    function getParameterByName(name) {
+        name = name.replace(/[\[\]]/g, '\\$&');
+        let url = window.location.href;
+
+        let regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+        let results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+    let utmSource = getParameterByName('utm_source');
+
+    if (utmSource) {
+        let sourceInputWsp = document.getElementById('source_wsp');
+        let sourceInput = document.getElementById('source');
+
+        let sourceInputWspOrigin = document.getElementById('llegade_wsp');
+        let sourceInputOrigin = document.getElementById('llegade');
+
+        let currentValue = sourceInput.value;
+        let currentValueWsp = sourceInputWsp.value;
+
+        let currentValueOrigin = sourceInputOrigin.value;
+        let currentValueWspOrigin = sourceInputWspOrigin.value;
+
+
+        let nuevo = utmSource;
+        let nuevoWsp = utmSource;
+
+
+        sourceInput.value = nuevo;
+        sourceInputWsp.value = nuevoWsp;
+
+        sourceInputOrigin.value = nuevo;
+        sourceInputWspOrigin.value = nuevoWsp;
+
+        console.log(sourceInputOrigin.value);
+        console.log(sourceInputWspOrigin.value);
+    }
+</script>
+
+
+<script>
+    // Obtener información del navegador y del sistema operativo
+    const platform = navigator.platform;
+    document.getElementById('sistema').value = platform;
+    document.getElementById('sistema_wsp').value = platform;
+
+    // Obtener la geolocalización del usuario (si se permite)
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            document.getElementById('latitud').value = position.coords.latitude;
+            document.getElementById('longitud').value = position.coords.longitude;
+            document.getElementById('latitud_wsp').value = position.coords.latitude;
+            document.getElementById('longitud_Wsp').value = position.coords.longitude;
+        });
+    }
+
+    // Obtener la resolución de la pantalla
+    const screenWidth = window.screen.width;
+    const screenHeight = window.screen.height;
+    document.getElementById('anchodispositivo').value = screenWidth;
+    document.getElementById('largodispositivo').value = screenHeight;
+    document.getElementById('anchodispositivo_wsp').value = screenWidth;
+    document.getElementById('largodispositivo_wsp').value = screenHeight;
+</script>
+
+<script>
+    $('#procesarSolicitud2').on('click', function() {
+        event.preventDefault();
+        console.log('precionando btn envio');
+
+        let formulario = $('#dataWhatsapp').serialize()
+        
+        fetch("{{ route('save.crm') }}", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    _token: $('[name="_token"]').val(),
+                    contact_name: $('[name="contact_name_wsp"]').val(),
+                    contact_email: $('[name="contact_email_wsp"]').val(),
+                    contact_phone: `51${$('[name="contact_phone_wsp"]').val()}`,
+                    tradename: $('[name="name_wsp"]').val(),
+                    sector: $('[name="sector_wsp"]').val(),
+                    web_url: $('[name="web_url_wsp"]').val(),
+                    source: $('[name="source_wsp"]').val(),
+                    origin: $('[name="source_wsp"]').val(),
+                    client_width: $('[name="client_width_wsp"]').val(),
+                    client_height: $('[name="client_height_wsp"]').val(),
+                    client_latitude: $('[name="client_latitude_wsp"]').val(),
+                    client_longitude: $('[name="client_longitude_wsp"]').val(),
+                    client_system: $('[name="client_system_wsp"]').val(),
+                    message: $('[name="message_wsp"]').val(),
+                    triggered_by: $('[name="triggered_by_wsp"]').val(),
+                })
+            })
+            .then(async res => {
+                const data = await res.json()
+                if (!res.ok) throw new Error(data?.message ?? 'Ocurrio un error inesperado')
+                return data
+            })
+            .then(response => {
+                Swal.close();
+                
+                $('#dataWhatsapp')[0].reset();
+                Swal.fire({
+                    title: response.message,
+                    icon: "success",
+                }).then((result) => {
+                    
+                    if (result.isConfirmed) {
+                        window.open("https://wa.link/txz27u", "_blank");
+                        window.location.href = "https://mundoweb.pe/#whatsappListo";
+                    }
+                });
+               
+            }).catch((error) => {
+                Swal.close();
+                Swal.fire({
+                    title: error,
+                    icon: "error",
+                });
+            })
+
+    })
+</script>
 
