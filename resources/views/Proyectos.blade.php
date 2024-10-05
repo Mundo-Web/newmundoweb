@@ -114,7 +114,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Columna 1 (60%) -->
       <div class="xs:col-span-12  lg:col-span-8 w-full h-full  p-4  text-left  flex flex-col justify-center items-center mx-auto">
        
-        <div class="items-center  xs:pt-[5%] md:pt-[8%] lg:pt-[10%]  xs:px-[2%] md:px-[8%]  ">
+        <div class="items-center  xs:pt-[5%] md:pt-[8%] lg:pt-[10%]  xs:px-[2%] md:px-[3%]  ">
           <h1 class="xs:text-4xl xl:text-6xl  text-white w-full font-bold  ">
             Portafolio: Nuestra Galería de Éxitos Digitales
           </h1>
@@ -154,7 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
 
-  <h1 class="xs:text-4xl xl:text-5xl  text-white w-full font-bold pt-[3%] px-[5%] lg:px-[6%] ">
+  <h1 class="xs:text-4xl xl:text-5xl  text-white w-full font-bold pt-[3%] px-[5%] lg:px-[3%] ">
     Nuestros proyectos E-commerce:
   </h1>
 
@@ -162,9 +162,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
    
     <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center">
-     
       <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center ">
-            <div class="mx-[8%] mb-10">
+            <div class="mx-[5%] mb-10">
               <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Las Doñas </h2>
               <a  class="text-base font-normal font-MontserratRegular text-white"  href="#" > Proyecto en desarrollo </a> 
             </div>
@@ -172,15 +171,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a href="#" > <img class="m-auto w-full" src="img/E_LasDonasHome.png"> </a>
             </div>
       </div>
+    </div>
 
+
+    <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center">
+      <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center ">
+            <div class="mx-[5%] mb-10">
+              <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Everlast Perú </h2>
+              <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank  href="https://everlast.com.pe/" > https://everlast.com.pe/ </a> 
+            </div>
+            <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+              <a target=_blank href="https://everlast.com.pe/" > <img class="m-auto w-full" src="img/EverlastF.png"> </a>
+            </div>
+      </div>
     </div>
 
 
 
     <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  ">
-     
       <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-            <div class="mx-[8%] mb-10">
+            <div class="mx-[5%] mb-10">
               <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Doomine </h2>
               <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://doomine.com/" > https://doomine.com/ </a> 
             </div>
@@ -188,64 +198,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a target=_blank href="https://doomine.com/" > <img class="m-auto w-full" src="img/E_DoomineHome.png"> </a>
             </div>
       </div>
-
     </div>
 
     
-    <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
-    <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-            
-            <div class="mx-[8%] mb-10">
-              <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Kaori</h2>
-              <a  class="text-base font-normal font-MontserratRegular text-white"  href="#" > Proyecto en desarrollo</a> 
-            </div>
-            <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
-              <a  href="#" ><img class="m-auto w-full" src="img/E_KaoriHome.png"> </a>
-            </div>
-      </div>
-
-    </div>
-
-
+  
     <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
-     
-    <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-            <div class="mx-[8%] mb-10">
-              <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Escuela de Gestión Pública</h2>
-              <a  class="text-base font-normal font-MontserratRegular text-white"  href=">#" > Proyecto en desarrollo </a> 
-            </div>
-            <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
-              <a  href="#" ><img class="m-auto w-full" src="img/E_GestionPublicaHome.png"></a>
-            </div>
-      </div>
-
+        <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+                <div class="mx-[5%] mb-10">
+                  <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Escuela de Gestión Pública</h2>
+                  <a  class="text-base font-normal font-MontserratRegular text-white"  href=">#" > Proyecto en desarrollo </a> 
+                </div>
+                <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+                  <a  href="#" ><img class="m-auto w-full" src="img/E_GestionPublicaHome.png"></a>
+                </div>
+          </div>
     </div>
 
 
 
-    {{-- <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0  flex flex-col justify-center  mx-auto ">
-       
-      <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-              <div class="mx-[8%]">
-                <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Doomine</h2>
-                <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="#" > Proyecto en desarrollo </a> 
-              </div>
-              <a  target=_blank href="#" ><img class="m-auto w-full p-[5%]" src="img/Doomine_ECO.png"> </a>
-        </div>
-    </div> --}}
+        {{-- <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0  flex flex-col justify-center  mx-auto ">
+          
+          <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+                  <div class="mx-[8%]">
+                    <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Doomine</h2>
+                    <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="#" > Proyecto en desarrollo </a> 
+                  </div>
+                  <a  target=_blank href="#" ><img class="m-auto w-full p-[5%]" src="img/Doomine_ECO.png"> </a>
+            </div>
+        </div> --}}
 
 
-      {{-- <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
-     
-        <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-                <div class="mx-[8%]">
-                  <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Limajoya</h2>
-                  <a  class="text-base font-normal font-MontserratRegular text-white" href="https://limajoya.com.pe/"  target=_blank > https://limajoya.com.pe/ </a> 
-                </div>
-                <a  href="https://limajoya.com.pe/"  target=_blank><img class="m-auto w-full p-[5%]" src="img/Limajoya_ECO.png"> </a>
-          </div>
-    
-      </div> --}}
+        {{-- <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
+      
+          <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+                  <div class="mx-[8%]">
+                    <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Limajoya</h2>
+                    <a  class="text-base font-normal font-MontserratRegular text-white" href="https://limajoya.com.pe/"  target=_blank > https://limajoya.com.pe/ </a> 
+                  </div>
+                  <a  href="https://limajoya.com.pe/"  target=_blank><img class="m-auto w-full p-[5%]" src="img/Limajoya_ECO.png"> </a>
+            </div>
+      
+        </div> --}}
     
         
         {{-- <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
@@ -264,30 +257,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
            
           <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-                  <div class="mx-[8%]">
+                  <div class="mx-[5%] mb-10">
                     <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Peru Andes Top</h2>
-                    <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://peruandestop.com/" > Proyecto en desarrollo </a> 
+                    <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://peruandestop.com/" > https://peruandestop.com/ </a> 
                   </div>
-                  <a  target=_blank href="https://peruandestop.com/" ><img class="m-auto w-full p-[5%]" src="img/PeruTop_ECO.png"> </a>
+                  <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+                    <a  target=_blank href="https://peruandestop.com/" ><img class="m-auto w-full" src="img/peruandestop.png"> </a>
+                  </div>
             </div>
       
           </div>
 
 
-          <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
+          {{-- <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
            
             <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-                    <div class="mx-[8%]">
+                    <div class="mx-[5%] mb-10">
                       <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Petale</h2>
                       <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://petale.pe/" > https://petale.pe/ </a> 
                     </div>
-                    <a target=_blank href="https://petale.pe/" ><img class="m-auto w-full p-[5%]" src="img/Petale_ECO.png"> </a>
+                    <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+                      <a target=_blank href="https://petale.pe/" ><img class="m-auto w-full p-[5%]" src="img/peruandestop.png"> </a>
+                    </div>
               </div>
         
-            </div>
+          </div> --}}
 
-
-            {{-- <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
+          {{-- <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
            
               <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
                       <div class="mx-[8%]">
@@ -297,16 +293,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <a target=_blank href="https://www.xaphi.com/"><img class="m-auto w-full p-[5%]" src="img/Xapi_ECO.png"> </a>
                 </div>
           
-            </div> --}}
+          </div> --}}
+
 </div>
 
 
 
-<h1 class="xs:text-4xl xl:text-5xl  text-white w-full font-bold pt-[3%] px-[5%] lg:px-[6%] ">
+<h1 class="xs:text-4xl xl:text-5xl  text-white w-full font-bold pt-[3%] px-[5%] lg:px-[3%] ">
   Nuestros proyectos Landingpage:
 </h1>
 
-<div class=" grid  grid-cols-12 xs:min-w-96  xs:h-full  mt-12 carruselproyectos ">
+<div class=" grid  grid-cols-12 xs:min-w-96  xs:h-full  mt-12 carruselproyectos gap-y-10 lg:gap-10">
 
  
   {{-- <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  ">
@@ -322,112 +319,150 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div> --}}
 
   
-  <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
-     
-  <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-          <div class="mx-[8%] mb-10">
-            <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Dr. Kewin</h2>
-            <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="#" > Proyecto en desarrollo </a> 
-          </div>
-          <div class="h-[500px] lg:h-[1000px] overflow-y-auto no-scrollbar px-[5%]">
-            <a href="#"><img class="m-auto w-full" src="img/O_DoctorKewin.png"></a>  
-          </div>
-    </div>
-
-  </div>
+  
 
 
   <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
-   
-  <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-          <div class="mx-[8%]">
-            <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Fit2Finance</h2>
-            <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="#" > Proyecto en desarrollo </a> 
-          </div>
-          <a href="#"><img class="m-auto w-full p-[5%]" src="img/FIT2Finance_LP.png"> </a>
+    <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+            <div class="mx-[5%] mb-10">
+              <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Fit2Finance</h2>
+              <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://fit2-finance.com/" > https://fit2-finance.com/ </a> 
+            </div>
+            <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+              <a target=_blank href="https://fit2-finance.com/"><img class="m-auto w-full" src="img/fitofinance.png"> </a>
+            </div>
     </div>
-
   </div>
 
 
 
   <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
-     
     <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-            <div class="mx-[8%]">
+            <div class="mx-[5%] mb-10">
               <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: LimpiaBnB</h2>
-              <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="#" > Proyecto en desarrollo </a> 
+              <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://limpiabnb.com/" > https://limpiabnb.com/ </a> 
             </div>
-            <a href="#"><img class="m-auto w-full p-[5%]" src="img/LimpiaBnb_LP.png"> </a>
+            <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+              <a href="#"><img class="m-auto w-full" src="img/Limbiabnb.png"> </a>
+            </div>
+    </div>
+  </div>
+
+
+    <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
+      <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+              <div class="mx-[5%] mb-10">
+                <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: YepAdvisors</h2>
+                <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://yepadvisors.com/" > ttps://yepadvisors.com/ </a> 
+              </div>
+              <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+                <a target=_blank href="https://yepadvisors.com/"><img class="m-auto w-full" src="img/YepAvidsors.png"> </a>
+              </div>
       </div>
     </div>
 
 
     <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
-   
       <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-              <div class="mx-[8%]">
-                <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: YepAdvisors</h2>
-                <a  class="text-base font-normal font-MontserratRegular text-white" href="#" > Proyecto en desarrollo </a> 
+              <div class="mx-[5%] mb-10">
+                <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Partner Logistic</h2>
+                <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://partners-logistics.com.pe/" > https://partners-logistics.com.pe/ </a> 
               </div>
-              <a href="#"><img class="m-auto w-full p-[5%]" src="img/YepAdvisors_LP.png"> </a>
-        </div>
-  
+              <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+                <a target=_blank href="https://partners-logistics.com.pe/"><img class="m-auto w-full" src="img/Partnerlogistic.png"> </a>
+              </div>
       </div>
-  
+    </div>
+
+
+    <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
+      <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+              <div class="mx-[5%] mb-10">
+                <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Landing Piscinas Hidromec</h2>
+                <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://piscinas.hidromecproductos.com/" > https://piscinas.hidromecproductos.com/ </a> 
+              </div>
+              <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+                <a target=_blank href="https://piscinas.hidromecproductos.com/"><img class="m-auto w-full" src="img/LandingPiscinas.png"> </a>
+              </div>
+      </div>
+    </div>
+
 </div>
 
 
-<h1 class="xs:text-4xl xl:text-5xl  text-white w-full font-bold pt-[3%] px-[5%] lg:px-[6%] ">
+<h1 class="xs:text-4xl xl:text-5xl  text-white w-full font-bold pt-[3%] px-[5%] lg:px-[3%] ">
   Nuestros proyectos Website:
 </h1>
 
 
-<div class=" grid  grid-cols-12 xs:min-w-96  xs:h-full  mt-12 carruselproyectos ">
-
- 
-  <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  ">
-   
-    <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-          <div class="mx-[8%]">
-            <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Casa de fierro </h2>
-            <a  class="text-base font-normal font-MontserratRegular text-white" href="https://lacasadefierrorestaurante.com/" > https://lacasadefierrorestaurante.com/ </a> 
-          </div>
-          <a href="https://lacasadefierrorestaurante.com/" target=_blank><img class="m-auto w-full p-[5%]" src="img/Casadefierro_WS.png"> </a>
-    </div>
-
-  </div>
+<div class=" grid  grid-cols-12 xs:min-w-96  xs:h-full  mt-12 carruselproyectos pb-20">
 
   
   <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
-     
-  <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-          <div class="mx-[8%]">
-            <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Emprendenvio </h2>
-            <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://emprendenvio.com/" > https://emprendenvio.com/ </a> 
-          </div>
-          <a target=_blank href="https://emprendenvio.com/"><img class="m-auto w-full p-[5%]" src="img/Emprendenvio_WS.png"> </a>
-    </div>
-
+      <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  "> 
+              <div class="mx-[5%] mb-10">
+                <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Kaori</h2>
+                <a  class="text-base font-normal font-MontserratRegular text-white"  href="#" > Proyecto en desarrollo</a> 
+              </div>
+              <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+                <a  href="#" ><img class="m-auto w-full" src="img/E_KaoriHome.png"> </a>
+              </div>
+        </div>
   </div>
 
-
-  <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
+  <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  ">
    
-  <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
-          <div class="mx-[8%]">
-            <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Gandía</h2>
-            <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://gandia.com.pe/" > https://gandia.com.pe/ </a> 
+    <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+          <div class="mx-[5%] mb-10">
+            <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: SMO </h2>
+            <a  class="text-base font-normal font-MontserratRegular text-white" href="https://smoconsultores.com/" > https://lacasadefierrorestaurante.com/ </a> 
           </div>
-          <a target=_blank href="https://gandia.com.pe/"><img class="m-auto w-full p-[5%]" src="img/Gandia_WS.png"> </a>
+          <div class="h-[500px] lg:h-[800px] overflow-y-auto no-scrollbar px-[5%]">
+            <a href="https://smoconsultores.com/" target=_blank><img class="m-auto w-full" src="img/SMO.png"> </a>
+          </div>
     </div>
 
   </div>
 
+  <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto "> 
+    <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+            <div class="mx-[8%] mb-10">
+              <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Dr. Kewin</h2>
+              <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://cirugiasdelima.com/" > https://cirugiasdelima.com/ </a> 
+            </div>
+            <div class="h-[500px] lg:h-[1000px] overflow-y-auto no-scrollbar px-[5%]">
+              <a href="#"><img class="m-auto w-full" src="img/O_DoctorKewin.png"></a>  
+            </div>
+      </div>
+  </div>
 
-
-  <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
+  
+  {{-- <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
      
+    <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+            <div class="mx-[8%]">
+              <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Emprendenvio </h2>
+              <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://emprendenvio.com/" > https://emprendenvio.com/ </a> 
+            </div>
+            <a target=_blank href="https://emprendenvio.com/"><img class="m-auto w-full p-[5%]" src="img/Emprendenvio_WS.png"> </a>
+      </div>
+
+  </div> --}}
+
+
+  {{-- <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
+    <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
+            <div class="mx-[8%]">
+              <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Gandía</h2>
+              <a  class="text-base font-normal font-MontserratRegular text-white" target=_blank href="https://gandia.com.pe/" > https://gandia.com.pe/ </a> 
+            </div>
+            <a target=_blank href="https://gandia.com.pe/"><img class="m-auto w-full p-[5%]" src="img/Gandia_WS.png"> </a>
+      </div>
+  </div> --}}
+
+
+
+  {{-- <div class="xs:col-span-12 lg:col-span-6  w-full h-full p-0   flex flex-col justify-center  mx-auto ">
     <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
             <div class="mx-[8%]">
               <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Globaltec</h2>
@@ -435,20 +470,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <a target=_blank href="https://globaltecloud.com/"><img class="m-auto w-full p-[5%]" src="img/Globaltec.png"> </a>
       </div>
-    </div>
+  </div> --}}
 
 
-    <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
-   
+    {{-- <div class="xs:col-span-12  lg:col-span-6 w-full h-full  p-0   flex flex-col justify-center  mx-auto">
       <div class="xs:w-[100%] lg:w-[100%] min-h-96 md:h-[100%]  justify-center items-center  ">
               <div class="mx-[8%]">
                 <h2 class="text-xl font-normal font-RightgroteskMedium text-mwnaranja">Proyecto: Trento</h2>
                 <a  class="text-base font-normal font-MontserratRegular text-white" href="https://www.ctrento.com.pe/" > https://www.ctrento.com.pe/ </a> 
               </div>
               <a target=_blank href="https://www.ctrento.com.pe/" ><img class="m-auto w-full p-[5%]" src="img/Trento_WS.png"> </a>
-        </div>
-  
       </div>
+    </div> --}}
   
 </div>
 
